@@ -3,89 +3,100 @@
     <head>
         <meta charset="UTF-8">
         <title>Alex Gukov Resume</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <table cellspacing="15">
-            <tr>
-                <td>
-                    <img src="foto.jpg" width="200">
-                </td>
-
-                <td>
+        <div class="container">   
+                <div class="info">
+                    <img src="foto.jpg"
+                    class="avatar">
+                    <div class="info-text">
                     <h1>Alexandr Gukov</h1>
-                    <p><em>Novice <strong>QA Engineerr</strong></em></p>
+                    <p>Novice <strong>QA Engineerr</strong></p>
                     <p>I want to successfully complete the "Software Testing" courses at QALight</p>
-                </td>
-            </tr>
-        </table>
 
-        <hr>
-        <h2>Contacts</h2>
-        <ul>
-            <li><a href="https://instagram.com/gukovmariupol" target="_blank">Instagram</a></li>
-            <li><a href="https://t.me/alex_gukov" target="_blank">Telegram</a></li>
-            <li><a href="tel:+380983124505">+380983124505</a></li>
-            <li><a href="mailto:mariupol6500@gmail.com">mariupol6500@gmail.com</a></li>
-        </ul>
+                    <h4>Contacts</h4>
+                        <a href="tel:+380983124505">+380983124505</a>
+                        |
+                        <a href="mailto:mariupol6500@gmail.com">mariupol6500@gmail.com</a>
+                        |
+                        <a href="https://instagram.com/gukovmariupol" target="_blank">Instagram</a>
+                        
+                    </div>
+                </div>
+        
+                    <div class="card bg-yellow">
+                <h2>Work experience</h2>
+                <table class="table">
+                    
+                        <tr>
+                            <td>ТМ "Патриот"</td>
+                            <td>Sales Manager</td>
+                            <td>2016-2022</td>
+                        </tr>
+                        <tr>
+                            <td>ООО "СтройСервис"</td>
+                            <td>Sales Manager</td>
+                            <td>2007-2014</td>
+                        </tr>
+                </table>
+            </div>
 
-        <hr>
+                <div class="card bg-green">
 
-        <h2>Work experience</h2>
-        <table>
-                <tr>
-                    <th>Company</th>
-                    <th>Post</th>
-                    <th>Year</th>
-                </tr>
-                <tr>
-                    <td>ТМ "Патриот"</td>
-                    <td>Sales Manager</td>
-                    <td>2016-2022</td>
-                </tr>
-                <tr>
-                    <td>ООО "СтройСервис"</td>
-                    <td>Sales Manager</td>
-                    <td>2007-2014</td>
-                </tr>
-        </table>
+            <h2>Education</h2>
+        
+            <li class="course">"Priazovsky State Technical University"</li>
+        
+        </div>
 
-        <hr>
+            <div class="card bg-red">
 
-        <h2>Education</h2>
-        <ul>
-            <li>"ПГТУ"</li>
-        </ul>
+            <h2>Courses</h2>
+            <li class="course"><a href="https://qalight.ua/"target="_blank">QALite "Quality Assurance Engineerr"</a></li>
+        </div>
+        
+        <div class="contactvith">
+            <h2>Сontact with me</h2>
 
-        <hr>
+            <form action="/">
+                <div class="row">
+                <div class="form-groupe">
+                <label for="name">Your name:</label>
+                <input type="text" id="name"
+                placeholder="Enter your name">
+                </div>
+            
+                <div class="form-groupe">
+                <label for="email">Your email:</label>
+                <input type="email" id="email"
+                placeholder="Enter your email">
+                </div>
+                </div>
+            
+                <div class="form-groupe">
+                <label for="text">Your message:</label>
+                </div>
 
-        <h2>Курсы</h2>
-        <li><a href="https://qalight.ua/"target="_blank">QALite "Quality Assurance Engineerr"</a></li>
+                <div class="form-groupe">
+                <textarea name="" id="text" cols="15" rows="2"></textarea>
+                </div>
+                
 
-        <hr>
+                <input class="btn" type="submit" value="Send">
+            </form>
+            </div>
+<div class="position">
 
-        <h2>Сontact with me</h2>
+    <div class="box"></div>
+</div>
 
-        <form action="/">
-            <label for="name">Your name:</label>
-            <input type="text" id="name"
-            placeholder="Enter your name">
 
-            <br>
-
-            <label for="email">Your email:</label>
-            <input type="email" id="email"
-            placeholder="Enter your email">
-
-            <br>
-
-            <label for="text">Your message:</label>
-            <br>
-            <textarea name="" id="text" cols="15" rows="2"></textarea>
-
-            <br>
-
-            <input type="submit" value="Send">
-        </form>
-
-    </body>
-</html>
+            <div style="margin-bottom: 500px;">
+            </div>
+        </div>    
+        </div>
+        
+        </div> 
+        </body>
+    </html>

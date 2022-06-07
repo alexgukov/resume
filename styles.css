@@ -1,0 +1,180 @@
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+
+a:visited {
+    color: grey;
+}
+
+
+
+.avatar {
+width: 200px;
+height: 200px;
+border-radius: 30px;
+box-shadow: 4px 4px 14px rgba(0, 0, 0, 25)
+}
+
+.info {
+    display: flex;
+margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+color: #86898f;
+margin: 0;
+font-style: italic;
+font-weight: bold;
+text-decoration: none;
+}
+
+
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+
+
+.bg-yellow {
+    background: #8ED7EF;
+}
+
+
+
+.bg-green {
+    background: #BEE9F8;
+}
+
+
+.bg-red {
+    background: #D9F2FB;
+}
+
+
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+   padding-bottom: 10px;
+}
+
+.table td:nth-child(2), table td:nth-child(3) {
+    color: #86898f;
+}
+
+.course {
+    list-style: square;
+    padding: 0;
+}
+
+.course {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+   
+}
+
+.contactvith h2 {
+    text-align: center; 
+}
+
+.form-groupe label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-groupe input,
+.form-groupe textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent ;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+    
+
+}
+
+.row > .form-groupe {
+    width: 50%;
+}
+
+.row > .form-groupe:first-child {
+margin-right: 20px;
+}
+
+.btn {
+    background: #111;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25)
+    
+}
+
+.btn:hover {
+    opacity: 0.7;
+
+}
+
