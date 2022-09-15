@@ -9,7 +9,7 @@ body {
 }
 
 a {
-    color: blue;
+    color: rgb(22, 22, 173);
     text-decoration: none;
     font-weight: bold;
     
@@ -22,8 +22,8 @@ a:hover {
 
 
 .avatar {
-width: 200px;
-height: 200px;
+width: 250px;
+height: 250px;
 border-radius: 30px;
 box-shadow: 4px 4px 14px rgba(0, 0, 0, 25)
 }
@@ -50,7 +50,7 @@ margin-bottom: 20px;
 }
 
 .info p {
-color: #86898f;
+color: #37a9f5;
 margin: 0;
 font-style: italic;
 font-weight: bold;
@@ -69,20 +69,35 @@ text-decoration: none;
 
 
 .bg-yellow {
-    background: #8ED7EF;
+    background: #b3ebffce;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 25)
 }
 
 
 
 .bg-green {
-    background: #BEE9F8;
+    background: #b7ebfdce;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 25)
 }
 
 
 .bg-red {
-    background: #D9F2FB;
+    background: #bfefffce;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25)
+}
+
+.bg-soft {
+    background: #c7f1ffce;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25)
+}
+
+.bg-skills {
+    background: #cef3ffce;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25)
+}
+
+.bg-languages {
+    background: #d9f5ffce;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 25)
 }
 
